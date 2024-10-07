@@ -63,18 +63,33 @@ for i,element in enumerate(x):
     print(i,element)
 
 #while condition==true
-x=[3,4,42,3,2,4]
-i=0
-while i<10:
-    print('run')
-    i=i+1
+#x=[3,4,42,3,2,4]
+#i=0
+#while i<10:
+ #   print('run')
+  #  i=i+1
 
 #--
-x=[3,4,42,3,2,4]
-i=0
-while True:
-    print('run')
-    i=i+1
-    while True:
-        if i==10:
-            break
+#x=[3,4,42,3,2,4]
+#i=0
+#while True:
+ #   print('run')
+  #  i=i+1
+   # while True:
+    #    if i==10:
+     #       break
+
+#slice operator--take a slice of a collection
+x=[0,1,2,3,4,5,6,7,8]
+y=['hi','hello','ggodbye','cya','sure']
+s="hello"
+sliced=x[0:4:2]
+#sliced=x[start:stop:step]
+print(sliced)
+#----
+x=[0,1,2,3,4,5,6,7,8]
+y=['hi','hello','ggodbye','cya','sure']
+s="hello"
+sliced=x[::-2]
+#sliced=x[start:stop:step]
+print(sliced)
