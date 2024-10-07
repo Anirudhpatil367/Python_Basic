@@ -35,11 +35,46 @@ print(x,y)
 #x.append(3)
 #print(x)
 
-x=[[],(),[[],[],[3,4,5]]]
-print(x)
+#x=[[],(),[[],[],[3,4,5]]]
+#print(x)
 
 
 #loops
 #while loops is running indefine times
-for i in range(10):
-    print(i)
+#for i in range(10):
+    #print(i)
+
+
+#stop
+#start,stop
+#start, stop ,step
+#for i in range(10,-1,-1):
+ #   print(i)
+#list in loops 
+#for i in[3,4,42,3,2,4]:
+ #   print(i)
+
+#x=[3,4,42,3,2,4]
+#for i in range(len(x)):
+ #   print(x[i])
+
+x=[3,4,42,3,2,4]
+for i,element in enumerate(x):
+    print(i,element)
+
+#while condition==true
+x=[3,4,42,3,2,4]
+i=0
+while i<10:
+    print('run')
+    i=i+1
+
+#--
+x=[3,4,42,3,2,4]
+i=0
+while True:
+    print('run')
+    i=i+1
+    while True:
+        if i==10:
+            break
